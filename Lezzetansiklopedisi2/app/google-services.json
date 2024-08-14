@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "878563800235",
+    "project_id": "lezzet-ansiklopedisi-70978",
+    "storage_bucket": "lezzet-ansiklopedisi-70978.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878563800235:android:e1e0b6fc440763fbfef3ee",
+        "android_client_info": {
+          "package_name": "com.example.lezzetansiklopedisi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrMvjKPkz8xs_EKyN5DVkDH6sfsH1W1CU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

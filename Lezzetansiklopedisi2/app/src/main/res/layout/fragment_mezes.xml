@@ -1,0 +1,145 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brown">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:src="@drawable/logo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageButton
+                android:id="@+id/btn_saksuka"
+                android:layout_width="150dp"
+                android:layout_height="149dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circle_button"
+                android:contentDescription="@string/title_mezes_saksuka"
+                android:onClick="onSoupButtonClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/saksuka" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_mezes_saksuka"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_kurucacik"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circle_button"
+                android:contentDescription="@string/title_mezes_kuru_cacik"
+                android:onClick="onSoupButtonClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/kuru_cacik"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_mezes_kuru_cacik"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_humus"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circle_button"
+                android:src="@drawable/humus"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/title_mezes_humus"
+                android:onClick="onSoupButtonClick"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_mezes_humus"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_mucver"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circle_button"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mucver"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/title_mezes_mucver"
+                android:onClick="onSoupButtonClick"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_mezes_mucver"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_patates_salatasi"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circle_button"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/patates_salatasi"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/title_mezes_patates_salatasi"
+                android:onClick="onSoupButtonClick"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_mezes_patates_salatasi"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_domates_salatasi"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circle_button"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/domates_salatasi"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/title_mezes_domates_salatasi"
+                android:onClick="onSoupButtonClick"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_mezes_domates_salatasi"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

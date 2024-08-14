@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">GustoArmonico</string>
+
+    <!-- Diğer mevcut string tanımlamaları -->
+    <string name="title_home">Home</string>
+    <string name="title_list">List</string>
+    <string name="title_person">Person</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_soups">Çorbalar</string>
+    <string name="title_main_dishes">Ana Yemekler</string>
+    <string name="title_mezes">Mezeler</string>
+    <string name="title_desserts">Tatlılar</string>
+    <string name="title_drinks">İçecekler</string>
+    <string name="title_soup_mercimek">Mercimek Çorbası</string>
+    <string name="title_soup_ezogelin">Ezogelin Çorbası</string>
+    <string name="title_soup_domates">Domates Çorbası</string>
+    <string name="title_soup_tavuk">Tavuk Çorbası</string>
+    <string name="title_soup_mantar">Mantar Çorbası</string>
+    <string name="title_main_dishes_patates_patlican">Patates Dolgulu Patlıcan</string>
+    <string name="title_main_dishes_firinda_kofte">Fırında Top Köfte</string>
+    <string name="title_main_dishes_kurufasulye">Kuru Fasulye</string>
+    <string name="title_main_dishes_taco">Kıymalı Taco</string>
+    <string name="title_main_dishes_somon">Kajun Baharatlı Somon</string>
+    <string name="title_main_dishes_hamsi">Fırında Hamsi</string>
+    <string name="title_main_dishes_somon_sandvic">Somon Sandvic</string>
+    <string name="title_main_dishes_tiryaki_durum">Teriyaki Soslu Tavuk Dürüm</string>
+    <string name="title_main_dishes_korili_tavuk">Köri Soslu Tavuk </string>
+    <string name="title_main_dishes_besamelli_tavuk">Beşamelli Sebzeli Tavuk </string>
+    <string name="title_mezes_saksuka">Şakşuka </string>
+    <string name="title_mezes_kuru_cacik">Kuru Cacık </string>
+    <string name="title_mezes_humus">Bal Kabaklı Humus </string>
+    <string name="title_mezes_mucver">Mücver </string>
+    <string name="title_mezes_patates_salatasi">Rokalı Patates Salatası </string>
+    <string name="title_mezes_domates_salatasi">Kuru Domates Salatası </string>
+    <string name="title_desserts_waffle">Waffle </string>
+    <string name="title_desserts_donut">Donuts </string>
+    <string name="title_desserts_cookie">Cookie </string>
+    <string name="title_desserts_churros">Mini Churros </string>
+    <string name="title_desserts_creme_caramel">Creme Caramel </string>
+    <string name="title_desserts_macaron">Macaron </string>
+    <string name="title_drinks_coollime">Cool Lime </string>
+    <string name="title_drinks_karadut">Karadut Şerbeti </string>
+    <string name="title_drinks_visne">Vişne Şerbeti </string>
+    <string name="title_drinks_cilekli_limonata">Çilekli Limonata </string>
+    <string name="title_drinks_muzlusüt">Muzlu Süt </string>
+    <string name="title_drinks_zencefilli_gazoz">Zencefilli Gazoz </string>
+</resources>

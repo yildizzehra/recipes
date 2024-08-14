@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brown"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/brown"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:src="@drawable/logo" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <ImageButton
+                android:id="@+id/btn_patates_patlican"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circle_button"
+                android:contentDescription="@string/title_main_dishes_patates_patlican"
+                android:onClick="onSoupButtonClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/patates_patlican" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:text="@string/title_main_dishes_patates_patlican"
+                android:textColor="@android:color/white" />
+
+            <ImageButton
+                android:id="@+id/btn_firinda_kofte"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circle_button"
+                android:contentDescription="@string/title_main_dishes_firinda_kofte"
+                android:onClick="onSoupButtonClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/firinda_top_kofte" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:text="@string/title_main_dishes_firinda_kofte"
+                android:textColor="@android:color/white" />
+
+
+            <ImageButton
+                android:id="@+id/btn_kurufasulye"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circle_button"
+                android:contentDescription="@string/title_main_dishes_kurufasulye"
+                android:onClick="onSoupButtonClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/kurufasulye" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:text="@string/title_main_dishes_kurufasulye"
+                android:textColor="@android:color/white" />
+
+
+            <ImageButton
+                android:id="@+id/btn_taco"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circle_button"
+                android:contentDescription="@string/title_main_dishes_taco"
+                android:onClick="onSoupButtonClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/taco" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:text="@string/title_main_dishes_taco"
+                android:textColor="@android:color/white" />
+
+            <ImageButton
+                android:id="@+id/btn_somon"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circle_button"
+                android:contentDescription="@string/title_main_dishes_somon"
+                android:onClick="onSoupButtonClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/somon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:text="@string/title_main_dishes_somon"
+                android:textColor="@android:color/white" />
+
+            <ImageButton
+                android:id="@+id/btn_hamsi"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circle_button"
+                android:contentDescription="@string/title_main_dishes_hamsi"
+                android:onClick="onSoupButtonClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hamsi" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:text="@string/title_main_dishes_hamsi"
+                android:textColor="@android:color/white" />
+
+            <ImageButton
+                android:id="@+id/btn_somon_sandvic"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circle_button"
+                android:contentDescription="@string/title_main_dishes_somon_sandvic"
+                android:onClick="onSoupButtonClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/somonsandvic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:text="@string/title_main_dishes_somon_sandvic"
+                android:textColor="@android:color/white" />
+
+            <ImageButton
+                android:id="@+id/btn_tiryaki_durum"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circle_button"
+                android:contentDescription="@string/title_main_dishes_tiryaki_durum"
+                android:onClick="onSoupButtonClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tiryaki_durum" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:text="@string/title_main_dishes_tiryaki_durum"
+                android:textColor="@android:color/white" />
+
+            <ImageButton
+                android:id="@+id/btn_korili_tavuk"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circle_button"
+                android:contentDescription="@string/title_main_dishes_korili_tavuk"
+                android:onClick="onSoupButtonClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/korili_tavuk" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:text="@string/title_main_dishes_korili_tavuk"
+                android:textColor="@android:color/white" />
+
+            <ImageButton
+                android:id="@+id/btn_besamelli_tavuk"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circle_button"
+                android:contentDescription="@string/title_main_dishes_besamelli_tavuk"
+                android:onClick="onSoupButtonClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/besamelli_tavuk" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:text="@string/title_main_dishes_besamelli_tavuk"
+                android:textColor="@android:color/white" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

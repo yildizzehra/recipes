@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="brown">#A99A73</color>
+    <color name="kahve">#7C6B56</color>
+    <color name="koyukahve">#6D573C</color>
+    <color name="açıkkahve">#F0DEC7</color>
+    <color name="colorPrimary">#FF6200EE</color>
+    <color name="colorPrimaryDark">#FF3700B3</color>
+    <color name="colorAccent">#FF03DAC5</color>
+    <color name="icon_color">#171718</color>
+    <color name="searchViewBackground">#D7CF9B</color>
+
+
+</resources>

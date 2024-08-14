@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brown"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:src="@drawable/logo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageButton
+                android:id="@+id/btn_mercimek"
+                android:layout_width="150dp"
+                android:layout_height="149dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circle_button"
+                android:contentDescription="@string/title_soup_mercimek"
+                android:onClick="onSoupButtonClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mercimek" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_soup_mercimek"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_ezogelin1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circle_button"
+                android:contentDescription="@string/title_soup_ezogelin"
+                android:onClick="onSoupButtonClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ezogelin"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_soup_ezogelin"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_domates"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circle_button"
+                android:src="@drawable/domates"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/title_soup_domates"
+                android:onClick="onSoupButtonClick"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_soup_domates"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_tavuk"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circle_button"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tavuk"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/title_soup_tavuk"
+                android:onClick="onSoupButtonClick"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_soup_tavuk"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_mantar"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circle_button"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mantar"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/title_soup_mantar"
+                android:onClick="onSoupButtonClick"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_soup_mantar"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</ScrollView>

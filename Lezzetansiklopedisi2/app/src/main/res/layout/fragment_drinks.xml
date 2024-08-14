@@ -1,0 +1,155 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brown"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:src="@drawable/logo"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <ImageButton
+            android:id="@+id/btn_karadut"
+            android:layout_width="143dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/circle_button"
+            android:contentDescription="@string/title_drinks_karadut"
+            android:onClick="onSoupButtonClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/karadut" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_drinks_karadut"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"/>
+
+        <ImageButton
+            android:id="@+id/btn_visne"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/circle_button"
+            android:contentDescription="@string/title_drinks_visne"
+            android:onClick="onSoupButtonClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/visne"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_drinks_visne"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"/>
+
+
+        <ImageButton
+            android:id="@+id/btn_cilekli_limonata"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/circle_button"
+            android:src="@drawable/cilekli_limonata"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/title_drinks_cilekli_limonata"
+            android:onClick="onSoupButtonClick"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_drinks_cilekli_limonata"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"/>
+
+
+        <ImageButton
+            android:id="@+id/btn_coollime"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/circle_button"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/coollime"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/title_drinks_coollime"
+            android:onClick="onSoupButtonClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_drinks_coollime"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"/>
+
+        <ImageButton
+            android:id="@+id/btn_muzlusut"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/circle_button"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/muzlu_sut"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/title_drinks_muzlusüt"
+            android:onClick="onSoupButtonClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_drinks_muzlusüt"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"/>
+
+        <ImageButton
+            android:id="@+id/btn_zencefilli_gazoz"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/zencefilli_gazoz"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/zencefilli_gazoz"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/title_drinks_zencefilli_gazoz"
+            android:onClick="onSoupButtonClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_drinks_zencefilli_gazoz"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
+
+
+
